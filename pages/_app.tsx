@@ -1,4 +1,3 @@
-import * as React from 'react';
 import Head from 'next/head';
 import { AppProps } from 'next/app';
 import { AppCacheProvider } from '@mui/material-nextjs/v14-pagesRouter';
@@ -15,7 +14,7 @@ export default function MyApp(props: AppProps) {
       </Head>
       <ThemeProvider>
         {/* CssBaseline kickstart an elegant, consistent, and simple baseline to build upon. */}
-        <CssBaseline />
+        <CssBaseline enableColorScheme />
         <ThemeButton />
         <Component {...pageProps} />
       </ThemeProvider>

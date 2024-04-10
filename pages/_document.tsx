@@ -14,7 +14,6 @@ export default function MyDocument(props: DocumentProps & DocumentHeadTagsProps)
         {/* PWA primary color */}
         <meta name="theme-color" content={theme.dark.palette.primary.main} />
         <link rel="shortcut icon" href="/favicon.ico" />
-        <meta name="emotion-insertion-point" content="" />
         <DocumentHeadTags {...props} />
       </Head>
       <body>
